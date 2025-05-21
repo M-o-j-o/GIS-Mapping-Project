@@ -3,7 +3,7 @@ from geopy.geocoders import HereV7
 
 def geo_code_address(address: str) -> dict:
     # herev7 api and query
-    geolocator = HereV7(apikey="REMOVED")
+    geolocator = HereV7(apikey="Enter API key here")
 
     location = geolocator.geocode(query=address, timeout=30)
 
